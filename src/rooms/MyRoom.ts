@@ -12,7 +12,7 @@ type Player = {
 const players: {[key: string]: Player} = {}
 
 export class MyRoom extends Room<MyRoomState> {
-  maxClients = 4;
+  maxClients = 12;
 
   onCreate(options: any) {
     console.log('MyRoom created!', options)
